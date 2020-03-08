@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MyMaster.master.cs" Inherits="MASTER_MyMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>母版页</title>
+    <link href="../CSS/MyStyle.css" rel="Stylesheet" type="text/css">
+</head>0
+<body>
+    <form id="form1" runat="server">
+    <div class="divAll">
+        <div class="headdiv">
+            <div class="logodiv">     </div>
+            <div class="menudiv">     </div>
+        </div>
+        <div class="bodydiv">
+            <div class="bodyleft">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </div>
+            <div class="bodyright">    
+                <asp:Image ID="Image1" runat="server" Height="100%" 
+                    ImageUrl="~/Images/227060.jpg" Width="100%" />
+            </div>
+        </div>
+        <div class="bottdiv">
+        </div>
+</div>
+    </form>
+</body>
+</html>

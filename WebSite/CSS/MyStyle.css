@@ -1,0 +1,41 @@
+﻿body
+{	text-align: center;    /*居中 */
+	font-size: 14px; }  /* 字体大小 */
+.divAll
+{	font-family: 宋体, Arial, Helvetica, sans-serif; /* 字体类型 */	
+	width: 1010px; }
+.headdiv
+{	width: 1010px; }
+.logodiv
+{	border: 1px dotted #FF9966;  /*边框宽度颜色 *
+	width: 1010px;   /*层的宽度 */
+	height: 120px; }
+.menudiv
+{	border: 1px solid #FF0000;
+	width: 1010px;
+	height: 26px;  }/*层的高度 */
+.bodydiv
+{	border-style: none solid none solid; /* 边框线类型 */
+	border-width: 0px 1px 0px 1px; /* 边框线宽度 */
+	width: 100%;
+	border-right-color: #FF0000;
+	border-left-color: #FF0000; }
+.bodyleft
+{	border-left: 0px none #FF0000;
+    border-right: 1px solid #FF0000;
+    border-top: 0px none #FF0000;
+    border-bottom: 0px none #FF0000;
+    float: left; /*float表示浮动,是div定位的要点,不使用folat,就不能实现左右定位布局*/
+	width: 693px;
+	height: 556px; }
+.bodyright
+{	border-style: none none none solid;
+	border-width: 1px 0px 0px 1px;
+	border-color: #FF0000;
+	float: right; /*float表示浮动,是div定位的要点,不使用folat,就不能实现左右定位布局*/
+	width: 245px;
+	height: 560px;  }
+.bottdiv
+{	border: 1px solid #FF0000;
+	width: 1010px;
+	height: 50px;  }
